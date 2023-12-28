@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Lamda;
 
 public class PredicateName implements Predicate{
     @Override

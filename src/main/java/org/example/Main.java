@@ -1,10 +1,11 @@
 package org.example;
 
+import org.example.Lamda.Predicate;
+import org.example.Lamda.User;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-
-import static java.util.stream.Collectors.toList;
 
 public class Main {
     public static String predicate(User user, Predicate p){

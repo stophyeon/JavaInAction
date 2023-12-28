@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Lamda;
 
 public class PredicatePassword implements Predicate{
     @Override
