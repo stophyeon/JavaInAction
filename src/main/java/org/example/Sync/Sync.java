@@ -7,13 +7,10 @@ public class Sync {
     public Sync(String name) {
         this.name = name;
     }
-    public void call_1(){
-        System.out.println(this.name+"의 1번째 전화");
+    public String call(){
+        return this.name+"가 Owhen에게 전화거는 중";
     }
-    public void call_2(){
-        System.out.println(this.name+"의 2번째 전화");
-    }
-    public void call_3(){
-        System.out.println(this.name+"의 3번째 전화");
+    public String message(){
+        return "Owhen에게 메세진 전송 중";
     }
 }
